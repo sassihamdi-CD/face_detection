@@ -113,18 +113,23 @@ Complete Source Code of Face Recognition In An Image
 import cv2
 
 # Load the cascade
+Code:
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # Read the input image
+Code:
 img = cv2.imread('sample.jpg')
 
 # Convert into grayscale
+Code:
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # Detect faces
+Code:
 faces = face_cascade.detectMultiScale(gray, 1.1, 4)
 
 # Draw rectangle around the faces
+Code:
 for (x, y, w, h) in faces:
     cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
 
@@ -146,6 +151,7 @@ The code given above is the required libraries to be import.
 Code:
 
 # Load the cascade
+Code:
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 Explanation:
 
@@ -164,6 +170,7 @@ The code given above is the function to capture video from webcam.
 Code:
 
 # Read the frame
+Code:
     _, img = cap.read()
     # Convert to grayscale
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -182,6 +189,7 @@ The code given above is the function to detect faces in the web cam.
 Code:
 
 # Draw the rectangle around each face
+Code:
     for (x, y, w, h) in faces:
         cv2.rectangle(img, (x, y), (x+w, y+h), (255, 0, 0), 2)
 Explanation:
@@ -194,11 +202,15 @@ Complete Source Code of Face Recognition in Real-Time
 import cv2
 
 # Load the cascade
+Code:
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 # To capture video from webcam. 
+Code:
 cap = cv2.VideoCapture(0)
 # To use a video file as input 
+Code:
 # cap = cv2.VideoCapture('filename.mp4')
+Code:
 while True:
     # Read the frame
     _, img = cap.read()
