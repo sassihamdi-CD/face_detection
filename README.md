@@ -9,9 +9,13 @@ The only difference here is that we use an infinite loop to loop through each fr
 The first value returned is a flag that indicates if the frame was read correctly or not. We don’t need it. The second value returned is the still frame on which we will be performing the detection.
 
 
-#Project Information’s
+## Project Information’s
 Project Name:	Face Recognition In Python
 Language/s Used:	Python OpenCV
 Python version (Recommended):	2.x or 3.x
 Database:	None
 Type:	Machine Learning
+* [Project Name](#Face Recognition In Python)
+* [Language/s Used](#Python OpenCV)
+* [Python version (Recommended)](#2.x or 3.x)
+* [Type](#Machine Learning)
