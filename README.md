@@ -22,8 +22,8 @@ Database:	None
 Type:	Machine Learning
 
 ## Setup
-# header H1
-Steps on How To Build Face Recognition Code In Python Using OpenCV
+# Steps on How To Build Face Recognition Code In Python Using OpenCV
+
 
 
 
