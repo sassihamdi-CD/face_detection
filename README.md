@@ -89,8 +89,8 @@ The code given above is the function to detect faces from the given image.
 Code:
 
 # Draw rectangle around the faces
-for (x, y, w, h) in faces:
-    cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
+'for (x, y, w, h) in faces:
+    cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)'
 Explanation:
 The code given above is the function to draw rectangle around the faces in an image.
 
