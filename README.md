@@ -15,7 +15,8 @@ Language/s Used:	Python OpenCV
 Python version (Recommended):	2.x or 3.x
 Database:	None
 Type:	Machine Learning
-* [Project Name](#Face Recognition In Python)
-* [Language/s Used](#Python OpenCV)
-* [Python version (Recommended)](#2.x or 3.x)
-* [Type](#Machine Learning)
+
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
