@@ -58,14 +58,12 @@ face detection run camera
 Face Recognition In An Image
 I have here the step by step program which can detect faces in an Image.
 1. Import OpenCV
-Code:
-import cv2
+'import cv2'
 Explanation:
 The code given above is the required libraries to be import.
 2. Load Face Cascade Dataset
-Code:
 # Load the cascade
-face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+'face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')'
 Explanation:
 The code given above is the face_cascade dataset which can be extracted when we run the project to detect faces in an image.
 3. Read The Input Image
